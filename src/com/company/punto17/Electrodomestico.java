@@ -56,6 +56,25 @@ public class Electrodomestico {
         return Boolean.FALSE;
     }
 
+    public void precioFinal() {
+        Double precio = this.precioBase;
+        String consumoE = String.valueOf(this.consumoEnergetico);
+        precio += Consumo.valueOf(consumoE).getValor();
+
+        if (this.peso >= 0 && this.peso <= 19) {
+            precio += 10;
+        } else if (this.peso >= 20 && this.peso <= 49) {
+            precio += 50;
+        } else if (this.peso >= 50 && this.peso <= 79) {
+            precio += 80;
+        } else if (this.peso >= 80) {
+            precio += 100;
+        }
+
+        this.precioBase=precio;
+
+    }
+
 
     public Double getPrecioBase() {
         return precioBase;
