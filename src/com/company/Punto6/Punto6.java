@@ -9,7 +9,6 @@ public class Punto6 {
             } else {
                 System.out.println(i + "es impar");
             }
-            i++;
         }
 
     }
