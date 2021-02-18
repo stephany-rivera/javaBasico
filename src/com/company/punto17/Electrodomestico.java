@@ -91,4 +91,8 @@ public class Electrodomestico {
     public Double getPeso() {
         return peso;
     }
+
+    public void setPrecioBase(Double precioBase) {
+        this.precioBase = precioBase;
+    }
 }
