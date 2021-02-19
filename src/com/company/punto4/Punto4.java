@@ -1,4 +1,4 @@
-package com.company.Punto4;
+package com.company.punto4;
 
 import com.company.Input.Teclado;
 

@@ -1,4 +1,4 @@
-package com.company.Punto5;
+package com.company.punto5;
 
 public class Punto5 {
 

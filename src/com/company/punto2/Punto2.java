@@ -1,7 +1,7 @@
-package com.company.Punto2;
+package com.company.punto2;
 
 import com.company.Input.Teclado;
-import com.company.Punto1.Punto1;
+import com.company.punto1.Punto1;
 
 public class Punto2 {
     private Double numero1;

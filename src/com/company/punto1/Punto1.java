@@ -1,6 +1,4 @@
-package com.company.Punto1;
-
-import com.company.Input.Teclado;
+package com.company.punto1;
 
 public class Punto1 {
 
